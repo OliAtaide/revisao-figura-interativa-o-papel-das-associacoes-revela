@@ -22,7 +22,7 @@ timeline.forEach(function (v, i) {
         `" alt="" class="card-img mb-3">
                     <div class="card-text">
                         `
-        + v.texto +
+        + ((v.texto != undefined) ? v.texto : '') +
         `
                     </div>
                 </div>

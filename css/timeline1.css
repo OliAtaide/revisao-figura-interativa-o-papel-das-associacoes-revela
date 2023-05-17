@@ -1,0 +1,17 @@
+body {
+    background-color: #AECBDC;
+}
+
+.card img {
+    width: 360px !important;
+    height: 360px;
+    object-fit: cover;
+}
+
+.tl-container::after{   
+    border: 6px solid #AECBDC;
+}
+
+.tl-container:not(:first-child) {
+    margin-top: -10em;
+}

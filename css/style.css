@@ -9,21 +9,11 @@
     font-family: 'Jost', sans-serif;
 }
 
-body {
-    background-color: var(--color2);
-}
-
 .card {
     align-items: center;
     text-align: center;
     position: relative;
     border: none;
-}
-
-.card img {
-    width: 360px !important;
-    height: 360px;
-    object-fit: cover;
 }
 
 .card-title,
@@ -72,7 +62,7 @@ span {
     cursor: pointer;
     z-index: 1;
 }
-
+f
 .tl-btn:hover{
     background-color: #265B88;
     color: white;
@@ -103,10 +93,6 @@ span {
     width: 50%;
 }
 
-.tl-container:not(:first-child) {
-    margin-top: -10em;
-}
-
 /* The circles on the timeline */
 .tl-container::after {
     content: '';
@@ -115,7 +101,6 @@ span {
     height: 25px;
     right: -12.5px;
     background-color: white;
-    border: 6px solid var(--color2);
     top: 22.5px;
     border-radius: 50%;
     z-index: 1;

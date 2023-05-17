@@ -1,0 +1,11 @@
+body{
+    background-color: #EEC174;
+}
+
+.tl-container::after{
+    border: 6px solid #EEC174;
+}
+
+.tl-container:not(:first-child) {
+    margin-top: -5em;
+}

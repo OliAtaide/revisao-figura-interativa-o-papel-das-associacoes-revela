@@ -1,14 +1,10 @@
-body {
-    background-color: #AECBDC;
-}
-
 .card img {
     width: 360px !important;
     height: 360px;
     object-fit: cover;
 }
 
-.tl-container::after{   
+.tl-container::after {
     border: 6px solid #AECBDC;
 }
 

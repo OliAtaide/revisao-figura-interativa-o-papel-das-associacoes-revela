@@ -9,6 +9,10 @@
     font-family: 'Jost', sans-serif;
 }
 
+body {
+    background-color: #AECBDC;
+}
+
 .card {
     align-items: center;
     text-align: center;
@@ -51,7 +55,7 @@ span {
     padding: 104px 0;
 }
 
-.tl-btn{
+.tl-btn {
     position: absolute;
     bottom: 0;
     left: calc(50% - 26px);
@@ -62,13 +66,13 @@ span {
     cursor: pointer;
     z-index: 1;
 }
-f
-.tl-btn:hover{
+
+f .tl-btn:hover {
     background-color: #265B88;
     color: white;
 }
 
-.tl-btn:active{
+.tl-btn:active {
     background-color: black;
     color: white;
 }
@@ -184,6 +188,6 @@ f
     }
 }
 
-footer{
+footer {
     background-color: white;
 }

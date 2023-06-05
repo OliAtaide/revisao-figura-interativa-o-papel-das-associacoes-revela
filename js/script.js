@@ -19,7 +19,9 @@ timeline.forEach(function (v, i) {
                     </h1>
                     <img src="imgs/`
         + v.imagem +
-        `" alt="" class="card-img mb-3">
+        `" class="card-img mb-3" alt="`
+        + v.alt +
+        `">
                     <div class="card-text">
                         `
         + ((v.texto != undefined) ? v.texto : '') +

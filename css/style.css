@@ -110,6 +110,11 @@ f .tl-btn:hover {
     z-index: 1;
 }
 
+.tl-btn:hover{
+    background-color: #265B88 !important;
+    color: white;
+}
+
 /* Place the container to the left */
 .left {
     left: 0;

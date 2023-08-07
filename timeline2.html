@@ -10,59 +10,85 @@
     <link rel="stylesheet" href="bootstrap-icons/bootstrap-icons.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/timeline2.css">
+    <link rel="stylesheet" href="css/base.css">
 </head>
 
 <body>
-    <header>
-        <nav class="navbar bg-light p-0">
-            <div class="container-fluid">
-                <div class="container my-2">
-                    <div class="d-flex">
-                        <span>
-                            <strong>
-                                Linha do Tempo 2
-                            </strong>
-                        </span>
-                        <div class="vr"></div>
-                        <span>
-                            <strong>
-                                As principais Associações de apoio a pessoas com ELA no Brasil
-                            </strong>
-                        </span>
-                        <span class="ms-auto">
-                            <strong>Conteudista(s):</strong>
-                            Andréa Silveira de Araújo, Cassandra Santiago da Cunha, Leila Denise Neto Ortiz
-                        </span>
-                    </div>
-                </div>
-                <hr class="w-100 m-0" />
-                <div class="container my-2">
-                    <span>
-                        <strong>Unidade 1:</strong>
-                        Experiências concretas de associações em prol da ELA
-                    </span>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <div class="timeline">
-            <button class="btn tl-btn">
-                <i class="bi bi-chevron-up"></i>
+
+    <nav class="sidebar d-flex flex-column">
+        <div class="d-flex w-100 justify-content-end">
+            <button class="btn btn-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidth"
+                aria-expanded="true" aria-controls="collapseWidth">
+
             </button>
         </div>
-    </main>
-    <footer class="py-3 d-flex justify-content-center">
-        <img src="imgs/logos.svg"
-            alt="Sobre barra horizontal branca, cinco marcas institucionais, alinhadas lado a lado. Da esquerda para a direita, marca da SEDIS/UFRN, com sigla em letras azuis à esquerda de desenho de um avião de papel azul em vôo sobre moldura quadrada azul; marca do LAIS, com linhas de gráficos dentro de círculo à esquerda de sigla do laboratório, com letras azuis; marca do Projeto RevELA com desenho estilizado de um olho circundado por três faixas também azuis, à esquerda de sigla do projeto; marca da UFRN, com letras em azul claro, exceto a letra F, vazado em faixa vertical azul escuro e marca do Ministério da Saúde, com assinatura em letras pretas à esquerda de marca do Governo Federal, com letras da palavra Brasil nas cores amarelo, azul, verde, vermelho e preto, sobrepostos entre si.">
-        <script src="bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-            crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-3.7.0.js"
-            integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
-        <script src="js/timeline2.js"></script>
-        <script src="js/script.js"></script>
-    </footer>
+        <div class="collapse collapse-horizontal show h-100" id="collapseWidth">
+            <div class="d-flex flex-column h-100">
+                <ul>
+                    <li class="my-2">
+                        <h6>
+                            UNIDADE 1
+                        </h6>
+                        <p>
+                            Experiências concretas de associações em prol da ELA
+                        </p>
+                    </li>
+                    <li class="my-2">
+                        <h6>
+                            Módulo
+                        </h6>
+                        <p>
+                            RevELAndo o Papel das Associações de Esclerose Lateral Amiotrófica
+                        </p>
+                    </li>
+                    <li class="my-2">
+                        <h6>
+                            Conteudistas
+                        </h6>
+                        <p>
+                            Andréa Silveira de Araújo
+                            <br>
+                            Cassandra Santiago da Cunha
+                            <br>
+                            Leila Denise Neto Ortiz
+                        </p>
+                    </li>
+                </ul>
+                <p class="text-center">
+                    <small>
+                        Creative Commons 4.0 share-alike
+                    </small>
+                </p>
+                <img class="mt-auto" src="imgs/LAIS.svg" alt="">
+            </div>
+        </div>
+    </nav>
+
+    <div class="game h-100">
+        <div class="title w-100 text-end d-flex align-items-center py-2 px-3">
+            <img src="imgs/revELA.svg" alt="">
+            <span class="ms-auto">Linha do Tempo 1</span>
+        </div>
+        <div class="game-container">
+            <h1 class="text-center">
+                As principais Associações de apoio a pessoas com ELA no Brasil
+            </h1>
+            <div class="game-body d-flex">
+                <div class="timeline">
+                    <button class="btn tl-btn">
+                        <i class="bi bi-chevron-up"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="js/timeline2.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

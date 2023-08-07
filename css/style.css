@@ -13,6 +13,10 @@ body {
     background-color: #AECBDC;
 }
 
+h1{
+    color: var(--color1);
+}
+
 .card {
     align-items: center;
     text-align: center;

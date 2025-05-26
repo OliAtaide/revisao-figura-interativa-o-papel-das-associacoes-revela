@@ -1,5 +1,4 @@
 timeline.forEach(function (v, i) {
-    console.log(v, i);
     var lado;
     if (i % 2 == 0) {
         lado = 'left';
